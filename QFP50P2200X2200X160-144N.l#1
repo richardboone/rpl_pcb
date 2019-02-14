@@ -225,8 +225,8 @@
 </packages>
 <symbols>
 <symbol name="STM32F446ZET6">
-<pin name="I2C1_SCL(136)" x="-1968.5" y="-5.08" length="middle"/>
-<pin name="I2C1_SDA(137)" x="-1968.5" y="-2.54" length="middle"/>
+<pin name="I2C1_SCL(136)" x="-1930.4" y="-7.62" length="middle" rot="R180"/>
+<pin name="I2C1_SDA(137)" x="-1930.4" y="-5.08" length="middle" rot="R180"/>
 <pin name="VSS" x="-1968.5" y="2.54" length="middle"/>
 <pin name="VDD" x="-1968.5" y="5.08" length="middle"/>
 <pin name="SPI1_SCK(41)" x="-1930.4" y="5.08" length="middle" rot="R180"/>
@@ -238,6 +238,8 @@
 <wire x1="-1963.42" y1="-20.32" x2="-1935.48" y2="-20.32" width="0.254" layer="94"/>
 <wire x1="-1935.48" y1="-20.32" x2="-1935.48" y2="10.16" width="0.254" layer="94"/>
 <wire x1="-1935.48" y1="10.16" x2="-1963.42" y2="10.16" width="0.254" layer="94"/>
+<pin name="VCA" x="-1968.5" y="0" length="middle"/>
+<pin name="VBAT" x="-1968.5" y="-2.54" length="middle"/>
 </symbol>
 </symbols>
 <devicesets>

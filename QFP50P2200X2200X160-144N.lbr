@@ -225,21 +225,22 @@
 </packages>
 <symbols>
 <symbol name="STM32F446ZET6">
-<pin name="I2C1_SCL(136)" x="-1930.4" y="-7.62" length="middle" rot="R180"/>
-<pin name="I2C1_SDA(137)" x="-1930.4" y="-5.08" length="middle" rot="R180"/>
+<pin name="I2C1_SCL(136)" x="-1917.7" y="-7.62" length="middle" rot="R180"/>
+<pin name="I2C1_SDA(137)" x="-1917.7" y="-5.08" length="middle" rot="R180"/>
 <pin name="VSS" x="-1968.5" y="2.54" length="middle"/>
 <pin name="VDD" x="-1968.5" y="5.08" length="middle"/>
-<pin name="SPI1_SCK(41)" x="-1930.4" y="5.08" length="middle" rot="R180"/>
-<pin name="SPI1_MISO(42)" x="-1930.4" y="2.54" length="middle" rot="R180"/>
-<pin name="SPI1_MOSI(43)" x="-1930.4" y="0" length="middle" rot="R180"/>
+<pin name="SPI1_SCK(41)" x="-1917.7" y="5.08" length="middle" rot="R180"/>
+<pin name="SPI1_MISO(42)" x="-1917.7" y="2.54" length="middle" rot="R180"/>
+<pin name="SPI1_MOSI(43)" x="-1917.7" y="0" length="middle" rot="R180"/>
 <pin name="I2C2_SDA(10)" x="-1968.5" y="-10.16" length="middle"/>
 <pin name="I2C2_SCL(11)" x="-1968.5" y="-12.7" length="middle"/>
 <wire x1="-1963.42" y1="10.16" x2="-1963.42" y2="-20.32" width="0.254" layer="94"/>
-<wire x1="-1963.42" y1="-20.32" x2="-1935.48" y2="-20.32" width="0.254" layer="94"/>
-<wire x1="-1935.48" y1="-20.32" x2="-1935.48" y2="10.16" width="0.254" layer="94"/>
-<wire x1="-1935.48" y1="10.16" x2="-1963.42" y2="10.16" width="0.254" layer="94"/>
+<wire x1="-1922.78" y1="-20.32" x2="-1922.78" y2="10.16" width="0.254" layer="94"/>
+<wire x1="-1922.78" y1="10.16" x2="-1963.42" y2="10.16" width="0.254" layer="94"/>
 <pin name="VCA" x="-1968.5" y="0" length="middle"/>
 <pin name="VBAT" x="-1968.5" y="-2.54" length="middle"/>
+<pin name="VDDA" x="-1968.5" y="-5.08" length="middle"/>
+<pin name="VRE" x="-1968.5" y="-7.62" length="middle"/>
 </symbol>
 </symbols>
 <devicesets>
