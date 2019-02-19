@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.2.2">
+<eagle version="9.2.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -58,9 +58,9 @@
 </layers>
 <library>
 <packages>
-<package name="QFP50P2200X2200X160-144N">
+<package name="STM32F446ZET6">
 <circle x="-12.14" y="9.03" radius="0.2" width="0" layer="21"/>
-<circle x="-12.14" y="9.03" radius="0.2" width="0" layer="51"/>
+<circle x="-15.95" y="7.76" radius="0.2" width="0" layer="51"/>
 <wire x1="-11.655" y1="-11.655" x2="11.655" y2="-11.655" width="0.05" layer="39"/>
 <wire x1="-11.655" y1="11.655" x2="11.655" y2="11.655" width="0.05" layer="39"/>
 <wire x1="-11.655" y1="-11.655" x2="-11.655" y2="11.655" width="0.05" layer="39"/>
@@ -225,25 +225,81 @@
 </packages>
 <symbols>
 <symbol name="STM32F446ZET6">
-<pin name="I2C1_SCL(136)" x="-1917.7" y="-7.62" length="middle" rot="R180"/>
-<pin name="I2C1_SDA(137)" x="-1917.7" y="-5.08" length="middle" rot="R180"/>
-<pin name="VSS" x="-1968.5" y="2.54" length="middle"/>
-<pin name="VDD" x="-1968.5" y="5.08" length="middle"/>
-<pin name="SPI1_SCK(41)" x="-1917.7" y="5.08" length="middle" rot="R180"/>
-<pin name="SPI1_MISO(42)" x="-1917.7" y="2.54" length="middle" rot="R180"/>
-<pin name="SPI1_MOSI(43)" x="-1917.7" y="0" length="middle" rot="R180"/>
-<pin name="I2C2_SDA(10)" x="-1968.5" y="-10.16" length="middle"/>
-<pin name="I2C2_SCL(11)" x="-1968.5" y="-12.7" length="middle"/>
-<wire x1="-1963.42" y1="10.16" x2="-1963.42" y2="-20.32" width="0.254" layer="94"/>
-<wire x1="-1922.78" y1="-20.32" x2="-1922.78" y2="10.16" width="0.254" layer="94"/>
-<wire x1="-1922.78" y1="10.16" x2="-1963.42" y2="10.16" width="0.254" layer="94"/>
-<pin name="VCA" x="-1968.5" y="0" length="middle"/>
-<pin name="VBAT" x="-1968.5" y="-2.54" length="middle"/>
-<pin name="VDDA" x="-1968.5" y="-5.08" length="middle"/>
-<pin name="VRE" x="-1968.5" y="-7.62" length="middle"/>
+<pin name="I2C1_SCL(136)" x="20.32" y="30.48" length="middle"/>
+<pin name="I2C1_SDA(137)" x="20.32" y="33.02" length="middle"/>
+<pin name="VSS" x="-20.32" y="40.64" length="middle" rot="R180"/>
+<pin name="VDD" x="-20.32" y="43.18" length="middle" rot="R180"/>
+<pin name="SPI1_SCK(41)" x="20.32" y="43.18" length="middle"/>
+<pin name="SPI1_MISO(42)" x="20.32" y="40.64" length="middle"/>
+<pin name="SPI1_MOSI(43)" x="20.32" y="38.1" length="middle"/>
+<pin name="I2C2_SDA(10)" x="20.32" y="25.4" length="middle"/>
+<pin name="I2C2_SCL(11)" x="20.32" y="22.86" length="middle"/>
+<wire x1="-20.32" y1="48.26" x2="-20.32" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="20.32" y1="-5.08" x2="20.32" y2="48.26" width="0.254" layer="94"/>
+<wire x1="20.32" y1="48.26" x2="-20.32" y2="48.26" width="0.254" layer="94"/>
+<pin name="VCA" x="-20.32" y="38.1" length="middle" rot="R180"/>
+<pin name="VBAT" x="-20.32" y="35.56" length="middle" rot="R180"/>
+<pin name="VDDA" x="-20.32" y="33.02" length="middle" rot="R180"/>
+<pin name="VRE" x="-20.32" y="30.48" length="middle" rot="R180"/>
+<pin name="I2C3_SDA(99)" x="20.32" y="17.78" length="middle"/>
+<pin name="I2C3_SCL(100)" x="20.32" y="15.24" length="middle"/>
+<wire x1="20.32" y1="-5.08" x2="-20.32" y2="-5.08" width="0.254" layer="94"/>
+<pin name="SPI2_SCK(69)" x="-20.32" y="25.4" length="middle" rot="R180"/>
+<pin name="SPI2_MOSI(27)" x="-20.32" y="22.86" length="middle" rot="R180"/>
+<pin name="SPI2_MISO(28)" x="-20.32" y="20.32" length="middle" rot="R180"/>
+<pin name="USB_DP(104)" x="-20.32" y="15.24" length="middle" rot="R180"/>
+<pin name="UART4_TX(34)" x="20.32" y="10.16" length="middle"/>
+<pin name="UART4_RX(35)" x="20.32" y="7.62" length="middle"/>
+<pin name="USB_DM(103)" x="-20.32" y="12.7" length="middle" rot="R180"/>
+<pin name="BOOT0(138)" x="-20.32" y="2.54" length="middle" rot="R180"/>
+<pin name="NRST(25)" x="-20.32" y="5.08" length="middle" rot="R180"/>
+<pin name="PDR_ON(143)" x="-20.32" y="7.62" length="middle" rot="R180"/>
+<pin name="UART5_TX(59)" x="20.32" y="2.54" length="middle"/>
+<pin name="UART5_RX(58)" x="20.32" y="0" length="middle"/>
 </symbol>
 </symbols>
 <devicesets>
+<deviceset name="STM32F446ZET6" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="STM32F446ZET6" x="1940.56" y="38.1"/>
+</gates>
+<devices>
+<device name="" package="STM32F446ZET6">
+<connects>
+<connect gate="G$1" pin="BOOT0(138)" pad="138"/>
+<connect gate="G$1" pin="I2C1_SCL(136)" pad="136"/>
+<connect gate="G$1" pin="I2C1_SDA(137)" pad="137"/>
+<connect gate="G$1" pin="I2C2_SCL(11)" pad="11"/>
+<connect gate="G$1" pin="I2C2_SDA(10)" pad="10"/>
+<connect gate="G$1" pin="I2C3_SCL(100)" pad="100"/>
+<connect gate="G$1" pin="I2C3_SDA(99)" pad="99"/>
+<connect gate="G$1" pin="NRST(25)" pad="25"/>
+<connect gate="G$1" pin="PDR_ON(143)" pad="143"/>
+<connect gate="G$1" pin="SPI1_MISO(42)" pad="42"/>
+<connect gate="G$1" pin="SPI1_MOSI(43)" pad="43"/>
+<connect gate="G$1" pin="SPI1_SCK(41)" pad="41"/>
+<connect gate="G$1" pin="SPI2_MISO(28)" pad="28"/>
+<connect gate="G$1" pin="SPI2_MOSI(27)" pad="27"/>
+<connect gate="G$1" pin="SPI2_SCK(69)" pad="69"/>
+<connect gate="G$1" pin="UART4_RX(35)" pad="35"/>
+<connect gate="G$1" pin="UART4_TX(34)" pad="34"/>
+<connect gate="G$1" pin="UART5_RX(58)" pad="58"/>
+<connect gate="G$1" pin="UART5_TX(59)" pad="59"/>
+<connect gate="G$1" pin="USB_DM(103)" pad="103"/>
+<connect gate="G$1" pin="USB_DP(104)" pad="104"/>
+<connect gate="G$1" pin="VBAT" pad="6"/>
+<connect gate="G$1" pin="VCA" pad="71"/>
+<connect gate="G$1" pin="VDD" pad="17 30 39 52 62 72 84 95 108 121 131 144"/>
+<connect gate="G$1" pin="VDDA" pad="33"/>
+<connect gate="G$1" pin="VRE" pad="32"/>
+<connect gate="G$1" pin="VSS" pad="16 31 38 51 61 83 94 107 120 130"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </drawing>

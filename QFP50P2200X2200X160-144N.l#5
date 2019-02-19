@@ -259,12 +259,12 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="STM32F446ZET6" uservalue="yes">
+<deviceset name="STM32F446ZET6">
 <gates>
 <gate name="G$1" symbol="STM32F446ZET6" x="68.58" y="17.78"/>
 </gates>
 <devices>
-<device name="" package="STM32F446ZET6">
+<device name="">
 <technologies>
 <technology name=""/>
 </technologies>
