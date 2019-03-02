@@ -11,14 +11,14 @@ STM CubeMX >>> Program that generates starter code for the entire range of STM32
 
 
 1.1 Install stlink 
-1.2 Test stlink: If using linux, check /dev for connected devices. Something like "stm32-..." will pop up when the dev board is connected correctly. On windows and mac, I'm assuming some prompt will pop up and tell you the board is connected. 
+1.2 Test stlink: If using linux, cd /dev for connected devices. If you run ls when the board is connected, "stlinkv2-1_" and some others should show up. On windows and mac, I'm assuming some prompt will pop up and tell you the board is connected. 
 
-2.1 Compile program: run these commands: 
+2.1 Compile program: run these commands from the root project directory: 
 make clean 
 make 
 
-2.2 Flash file: A ".bin" file should then be generated in the build folder. This file is what you flash to the dev board. Flash the file using this command:
-st-link write <filename> 0x8000000
+2.2 Flash file: A ".bin" file should then be generated in the build folder. This file is what you flash to the dev board. Navigate to the build folder, and flash the file using this command:
+st-flash write <filename> 0x8000000
 
 
 
