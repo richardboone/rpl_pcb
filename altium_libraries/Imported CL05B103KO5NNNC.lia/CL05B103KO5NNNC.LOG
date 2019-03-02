@@ -1,0 +1,28 @@
+PCAD Importer Log
+Project : CL05B103KO5NNNC.LibPkg
+
+Section : D:\RPL\rpl_pcb\altium_libraries\CL05B103KO5NNNC.lia
+    Section : PCB Library - CL05B103KO5NNNC.PcbLib
+        Section : Load Messages
+            Warning - 1 : Skipping Token CL05B103KO5NNNC On Line 116
+            Warning - 1 : Skipping Token attachedSymbol On Line 171
+        EndSection
+
+        Section : Import Messages
+        EndSection
+    EndSection
+
+    Section : SCH Library - CL05B103KO5NNNC.SchLib
+        Section : Parsing Messages
+            Warning - 1 : Skipping Token padStyleDef On Line 9
+            Warning - 1 : Skipping Token multiLayer On Line 84
+            Warning - 1 : Skipping Token layerContents On Line 88
+            Warning - 1 : Skipping Token layerContents On Line 96
+            Warning - 1 : Skipping Token layerContents On Line 104
+            Warning - 1 : Skipping Token layerContents On Line 110
+        EndSection
+
+        Section : Generating SCH Library - CL05B103KO5NNNC.SchLib
+        EndSection
+    EndSection
+EndSection

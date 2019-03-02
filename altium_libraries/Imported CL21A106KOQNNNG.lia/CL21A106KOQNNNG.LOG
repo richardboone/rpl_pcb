@@ -1,0 +1,28 @@
+PCAD Importer Log
+Project : CL21A106KOQNNNG.LibPkg
+
+Section : D:\RPL\rpl_pcb\altium_libraries\CL21A106KOQNNNG.lia
+    Section : PCB Library - CL21A106KOQNNNG.PcbLib
+        Section : Load Messages
+            Warning - 1 : Skipping Token CL21A106KOQNNNG On Line 116
+            Warning - 1 : Skipping Token attachedSymbol On Line 171
+        EndSection
+
+        Section : Import Messages
+        EndSection
+    EndSection
+
+    Section : SCH Library - CL21A106KOQNNNG.SchLib
+        Section : Parsing Messages
+            Warning - 1 : Skipping Token padStyleDef On Line 9
+            Warning - 1 : Skipping Token multiLayer On Line 84
+            Warning - 1 : Skipping Token layerContents On Line 88
+            Warning - 1 : Skipping Token layerContents On Line 92
+            Warning - 1 : Skipping Token layerContents On Line 100
+            Warning - 1 : Skipping Token layerContents On Line 108
+        EndSection
+
+        Section : Generating SCH Library - CL21A106KOQNNNG.SchLib
+        EndSection
+    EndSection
+EndSection

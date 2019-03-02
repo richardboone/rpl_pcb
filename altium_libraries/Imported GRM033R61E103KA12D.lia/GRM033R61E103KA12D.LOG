@@ -1,0 +1,28 @@
+PCAD Importer Log
+Project : GRM033R61E103KA12D.LibPkg
+
+Section : D:\RPL\rpl_pcb\altium_libraries\GRM033R61E103KA12D.lia
+    Section : PCB Library - GRM033R61E103KA12D.PcbLib
+        Section : Load Messages
+            Warning - 1 : Skipping Token GRM033R61E103KA12D On Line 117
+            Warning - 1 : Skipping Token attachedSymbol On Line 172
+        EndSection
+
+        Section : Import Messages
+        EndSection
+    EndSection
+
+    Section : SCH Library - GRM033R61E103KA12D.SchLib
+        Section : Parsing Messages
+            Warning - 1 : Skipping Token padStyleDef On Line 9
+            Warning - 1 : Skipping Token multiLayer On Line 84
+            Warning - 1 : Skipping Token layerContents On Line 88
+            Warning - 1 : Skipping Token layerContents On Line 93
+            Warning - 1 : Skipping Token layerContents On Line 101
+            Warning - 1 : Skipping Token layerContents On Line 109
+        EndSection
+
+        Section : Generating SCH Library - GRM033R61E103KA12D.SchLib
+        EndSection
+    EndSection
+EndSection

@@ -1,0 +1,28 @@
+PCAD Importer Log
+Project : LSM9DS1TR.LibPkg
+
+Section : D:\RPL\rpl_pcb\altium_libraries\LSM9DS1TR.lia
+    Section : PCB Library - LSM9DS1TR.PcbLib
+        Section : Load Messages
+            Warning - 1 : Skipping Token LSM9DS1TR On Line 143
+            Warning - 1 : Skipping Token attachedSymbol On Line 360
+        EndSection
+
+        Section : Import Messages
+        EndSection
+    EndSection
+
+    Section : SCH Library - LSM9DS1TR.SchLib
+        Section : Parsing Messages
+            Warning - 1 : Skipping Token padStyleDef On Line 9
+            Warning - 1 : Skipping Token multiLayer On Line 84
+            Warning - 1 : Skipping Token layerContents On Line 110
+            Warning - 1 : Skipping Token layerContents On Line 119
+            Warning - 1 : Skipping Token layerContents On Line 128
+            Warning - 1 : Skipping Token layerContents On Line 134
+        EndSection
+
+        Section : Generating SCH Library - LSM9DS1TR.SchLib
+        EndSection
+    EndSection
+EndSection

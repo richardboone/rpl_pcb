@@ -1,0 +1,28 @@
+PCAD Importer Log
+Project : C0402C104K4RACTU.LibPkg
+
+Section : D:\RPL\rpl_pcb\altium_libraries\C0402C104K4RACTU.lia
+    Section : PCB Library - C0402C104K4RACTU.PcbLib
+        Section : Load Messages
+            Warning - 1 : Skipping Token C0402C104K4RACTU On Line 136
+            Warning - 1 : Skipping Token attachedSymbol On Line 191
+        EndSection
+
+        Section : Import Messages
+        EndSection
+    EndSection
+
+    Section : SCH Library - C0402C104K4RACTU.SchLib
+        Section : Parsing Messages
+            Warning - 1 : Skipping Token padStyleDef On Line 9
+            Warning - 1 : Skipping Token multiLayer On Line 84
+            Warning - 1 : Skipping Token layerContents On Line 88
+            Warning - 1 : Skipping Token layerContents On Line 92
+            Warning - 1 : Skipping Token layerContents On Line 110
+            Warning - 1 : Skipping Token layerContents On Line 128
+        EndSection
+
+        Section : Generating SCH Library - C0402C104K4RACTU.SchLib
+        EndSection
+    EndSection
+EndSection
