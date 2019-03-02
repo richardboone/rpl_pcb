@@ -1,0 +1,14 @@
+Altium Designer System: Library Component Rule Check
+PCB File : QFP50P2200X2200X160-144N
+Date     : 3/2/2019
+Time     : 12:40:46 AM
+
+
+Name                Warnings
+------------------------------------------------------------------
+*QFP50P2200X2200X160-144NDuplicate Primitives: Arc (-477.953mil,355.512mil) on Mechanical 4 And Arc (-477.953mil,355.512mil) on Mechanical 4
+*QFP50P2200X2200X160-144NDuplicate Primitives: Track (-393.701mil,393.701mil)(393.701mil,393.701mil) on Mechanical 4 And Track (-393.701mil,393.701mil)(393.701mil,393.701mil) on Mechanical 4
+*QFP50P2200X2200X160-144NDuplicate Primitives: Track (393.701mil,-393.701mil)(393.701mil,393.701mil) on Mechanical 4 And Track (393.701mil,-393.701mil)(393.701mil,393.701mil) on Mechanical 4
+*QFP50P2200X2200X160-144NDuplicate Primitives: Track (-393.701mil,-393.701mil)(393.701mil,-393.701mil) on Mechanical 4 And Track (-393.701mil,-393.701mil)(393.701mil,-393.701mil) on Mechanical 4
+*QFP50P2200X2200X160-144NDuplicate Primitives: Track (-393.701mil,-393.701mil)(-393.701mil,393.701mil) on Mechanical 4 And Track (-393.701mil,-393.701mil)(-393.701mil,393.701mil) on Mechanical 4
+
