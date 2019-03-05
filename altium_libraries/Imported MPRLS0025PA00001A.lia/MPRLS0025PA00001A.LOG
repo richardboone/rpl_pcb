@@ -1,0 +1,29 @@
+PCAD Importer Log
+Project : MPRLS0025PA00001A.LibPkg
+
+Section : D:\RPL\rpl_pcb\altium_libraries\MPRLS0025PA00001A.lia
+    Section : PCB Library - MPRLS0025PA00001A.PcbLib
+        Section : Load Messages
+            Warning - 1 : Skipping Token MPRLS0025PA00001A On Line 147
+            Warning - 1 : Skipping Token attachedSymbol On Line 274
+        EndSection
+
+        Section : Import Messages
+        EndSection
+    EndSection
+
+    Section : SCH Library - MPRLS0025PA00001A.SchLib
+        Section : Parsing Messages
+            Warning - 1 : Skipping Token padStyleDef On Line 9
+            Warning - 1 : Skipping Token padStyleDef On Line 21
+            Warning - 1 : Skipping Token multiLayer On Line 96
+            Warning - 1 : Skipping Token layerContents On Line 110
+            Warning - 1 : Skipping Token layerContents On Line 119
+            Warning - 1 : Skipping Token layerContents On Line 128
+            Warning - 1 : Skipping Token layerContents On Line 134
+        EndSection
+
+        Section : Generating SCH Library - MPRLS0025PA00001A.SchLib
+        EndSection
+    EndSection
+EndSection
