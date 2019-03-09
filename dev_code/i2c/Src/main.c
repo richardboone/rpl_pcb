@@ -58,6 +58,7 @@ static void MX_I2C2_Init(void);
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
 uint8_t i2cData[2]; 
+int time = 0; 
 /* USER CODE END 0 */
 
 /**
@@ -129,9 +130,12 @@ int main(void)
     i2cData[0]=0x00; 
     HAL_I2C_Master_Transmit(&hi2c2,0xD0,i2cData,1,10);  
     HAL_I2C_Master_Receive(&hi2c2,0xD0,&i2cData[1],1,10);  
-
-    HAL_GPIO_TogglePin(GPIOB,GPIO_PIN_0);
-    HAL_Delay(i2cData[1]*10); 
+    if(i2cData[1]!=time){
+      HAL_GPIO_TogglePin(GPIOB,GPIO_PIN_0); 
+      HAL_GPIO_TogglePin(GPIOB,GPIO_PIN_7); 
+      HAL_GPIO_TogglePin(GPIOB,GPIO_PIN_14); 
+      time = i2cData[1]; 
+    } 
     // HAL_GPIO_TogglePin(GPIOB,GPIO_PIN_7);
     // HAL_Delay(500);
     // HAL_GPIO_TogglePin(GPIOB,GPIO_PIN_14);
