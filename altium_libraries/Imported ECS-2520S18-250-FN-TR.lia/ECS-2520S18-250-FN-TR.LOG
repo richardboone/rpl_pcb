@@ -1,0 +1,28 @@
+PCAD Importer Log
+Project : ECS-2520S18-250-FN-TR.LibPkg
+
+Section : C:\Users\rboon\Documents\RPL\rpl_pcb\altium_libraries\ECS-2520S18-250-FN-TR.lia
+    Section : PCB Library - ECS-2520S18-250-FN-TR.PcbLib
+        Section : Load Messages
+            Warning - 1 : Skipping Token ECS-2520S18-250-FN-TR On Line 121
+            Warning - 1 : Skipping Token attachedSymbol On Line 188
+        EndSection
+
+        Section : Import Messages
+        EndSection
+    EndSection
+
+    Section : SCH Library - ECS-2520S18-250-FN-TR.SchLib
+        Section : Parsing Messages
+            Warning - 1 : Skipping Token padStyleDef On Line 9
+            Warning - 1 : Skipping Token multiLayer On Line 84
+            Warning - 1 : Skipping Token layerContents On Line 90
+            Warning - 1 : Skipping Token layerContents On Line 96
+            Warning - 1 : Skipping Token layerContents On Line 105
+            Warning - 1 : Skipping Token layerContents On Line 114
+        EndSection
+
+        Section : Generating SCH Library - ECS-2520S18-250-FN-TR.SchLib
+        EndSection
+    EndSection
+EndSection
