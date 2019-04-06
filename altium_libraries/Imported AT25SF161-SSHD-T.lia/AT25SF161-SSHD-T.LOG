@@ -1,0 +1,28 @@
+PCAD Importer Log
+Project : AT25SF161-SSHD-T.LibPkg
+
+Section : D:\RPL\rpl_pcb\altium_libraries\AT25SF161-SSHD-T.lia
+    Section : PCB Library - AT25SF161-SSHD-T.PcbLib
+        Section : Load Messages
+            Warning - 1 : Skipping Token AT25SF161-SSHD-T On Line 133
+            Warning - 1 : Skipping Token attachedSymbol On Line 240
+        EndSection
+
+        Section : Import Messages
+        EndSection
+    EndSection
+
+    Section : SCH Library - AT25SF161-SSHD-T.SchLib
+        Section : Parsing Messages
+            Warning - 1 : Skipping Token padStyleDef On Line 9
+            Warning - 1 : Skipping Token multiLayer On Line 84
+            Warning - 1 : Skipping Token layerContents On Line 94
+            Warning - 1 : Skipping Token layerContents On Line 99
+            Warning - 1 : Skipping Token layerContents On Line 113
+            Warning - 1 : Skipping Token layerContents On Line 122
+        EndSection
+
+        Section : Generating SCH Library - AT25SF161-SSHD-T.SchLib
+        EndSection
+    EndSection
+EndSection
