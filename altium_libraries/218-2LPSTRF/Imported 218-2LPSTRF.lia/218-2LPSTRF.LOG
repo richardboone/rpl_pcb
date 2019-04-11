@@ -1,0 +1,28 @@
+PCAD Importer Log
+Project : 218-2LPSTRF.LibPkg
+
+Section : C:\Users\rboon\Documents\RPL\rpl_pcb\altium_libraries\218-2LPSTRF\218-2LPSTRF.lia
+    Section : PCB Library - 218-2LPSTRF.PcbLib
+        Section : Load Messages
+            Warning - 1 : Skipping Token 218-2LPSTRF On Line 131
+            Warning - 1 : Skipping Token attachedSymbol On Line 204
+        EndSection
+
+        Section : Import Messages
+        EndSection
+    EndSection
+
+    Section : SCH Library - 218-2LPSTRF.SchLib
+        Section : Parsing Messages
+            Warning - 1 : Skipping Token padStyleDef On Line 9
+            Warning - 1 : Skipping Token multiLayer On Line 84
+            Warning - 1 : Skipping Token layerContents On Line 90
+            Warning - 1 : Skipping Token layerContents On Line 98
+            Warning - 1 : Skipping Token layerContents On Line 106
+            Warning - 1 : Skipping Token layerContents On Line 120
+        EndSection
+
+        Section : Generating SCH Library - 218-2LPSTRF.SchLib
+        EndSection
+    EndSection
+EndSection
