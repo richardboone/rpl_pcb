@@ -1,0 +1,33 @@
+PCAD Importer Log
+Project : CAM-M8.LibPkg
+
+Section : D:\RPL\rpl_pcb\altium_libraries\CAM-M8.lia
+    Section : PCB Library - CAM-M8.PcbLib
+        Section : Load Messages
+            Warning - 1 : Skipping Token CAM-M8Q/C On Line 210
+            Warning - 1 : Skipping Token attachedSymbol On Line 545
+        EndSection
+
+        Section : Import Messages
+        EndSection
+    EndSection
+
+    Section : SCH Library - CAM-M8.SchLib
+        Section : Parsing Messages
+            Warning - 1 : Skipping Token padStyleDef On Line 9
+            Warning - 1 : Skipping Token padStyleDef On Line 21
+            Warning - 1 : Skipping Token multiLayer On Line 96
+            Warning - 1 : Skipping Token layerContents On Line 129
+            Warning - 1 : Skipping Token layerContents On Line 135
+            Warning - 1 : Skipping Token layerContents On Line 141
+            Warning - 1 : Skipping Token layerContents On Line 155
+            Warning - 1 : Skipping Token layerContents On Line 161
+            Warning - 1 : Skipping Token layerContents On Line 167
+            Warning - 1 : Skipping Token layerContents On Line 180
+            Warning - 1 : Skipping Token layerContents On Line 194
+        EndSection
+
+        Section : Generating SCH Library - CAM-M8.SchLib
+        EndSection
+    EndSection
+EndSection
