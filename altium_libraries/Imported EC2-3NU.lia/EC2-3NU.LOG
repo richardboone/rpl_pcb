@@ -1,0 +1,30 @@
+PCAD Importer Log
+Project : EC2-3NU.LibPkg
+
+Section : C:\Users\rboon\Documents\RPL\rpl_pcb\altium_libraries\EC2-3NU.lia
+    Section : PCB Library - EC2-3NU.PcbLib
+        Section : Load Messages
+            Warning - 1 : Skipping Token EC2-3NU On Line 139
+            Warning - 1 : Skipping Token attachedSymbol On Line 272
+        EndSection
+
+        Section : Import Messages
+        EndSection
+    EndSection
+
+    Section : SCH Library - EC2-3NU.SchLib
+        Section : Parsing Messages
+            Warning - 1 : Skipping Token padStyleDef On Line 9
+            Warning - 1 : Skipping Token padStyleDef On Line 21
+            Warning - 1 : Skipping Token multiLayer On Line 96
+            Warning - 1 : Skipping Token layerContents On Line 106
+            Warning - 1 : Skipping Token layerContents On Line 112
+            Warning - 1 : Skipping Token layerContents On Line 119
+            Warning - 1 : Skipping Token layerContents On Line 128
+            Warning - 1 : Skipping Token isVisible On Line 244
+        EndSection
+
+        Section : Generating SCH Library - EC2-3NU.SchLib
+        EndSection
+    EndSection
+EndSection
