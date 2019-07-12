@@ -1,0 +1,27 @@
+PCAD Importer Log
+Project : MMBT3904LT1G.LibPkg
+
+Section : C:\Users\rboon\Documents\RPL\rpl_pcb\altium_libraries\MMBT3904LT1G.lia
+    Section : PCB Library - MMBT3904LT1G.PcbLib
+        Section : Load Messages
+            Warning - 1 : Skipping Token MMBT3904LT1G On Line 150
+            Warning - 1 : Skipping Token attachedSymbol On Line 220
+        EndSection
+
+        Section : Import Messages
+        EndSection
+    EndSection
+
+    Section : SCH Library - MMBT3904LT1G.SchLib
+        Section : Parsing Messages
+            Warning - 1 : Skipping Token padStyleDef On Line 9
+            Warning - 1 : Skipping Token multiLayer On Line 84
+            Warning - 1 : Skipping Token layerContents On Line 89
+            Warning - 1 : Skipping Token layerContents On Line 96
+            Warning - 1 : Skipping Token layerContents On Line 122
+        EndSection
+
+        Section : Generating SCH Library - MMBT3904LT1G.SchLib
+        EndSection
+    EndSection
+EndSection

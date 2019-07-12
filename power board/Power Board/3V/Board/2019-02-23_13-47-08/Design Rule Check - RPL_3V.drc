@@ -1,0 +1,60 @@
+Protel Design System Design Rule Check
+PCB File : C:\Users\kdoug\Desktop\Power Board\3V\Board\2019-02-23_13-47-08\RPL_3V.PcbDoc
+Date     : 4/10/2019
+Time     : 5:56:08 PM
+
+Processing Rule : Clearance Constraint (Gap=10mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
+Rule Violations :0
+
+Processing Rule : Un-Routed Net Constraint ( (All) )
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=10mil) (Max=100mil) (Preferred=10mil) (All)
+Rule Violations :0
+
+Processing Rule : Power Plane Connect Rule(Direct Connect )(Expansion=20mil) (Conductor Width=10mil) (Air Gap=10mil) (Entries=4) (All)
+Rule Violations :0
+
+Processing Rule : Hole Size Constraint (Min=1mil) (Max=100mil) (All)
+Rule Violations :0
+
+Processing Rule : Hole To Hole Clearance (Gap=10mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Minimum Solder Mask Sliver (Gap=3mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Silk To Solder Mask (Clearance=10mil) (IsPad),(All)
+Rule Violations :0
+
+Processing Rule : Silk to Silk (Clearance=10mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Net Antennae (Tolerance=0mil) (All)
+Rule Violations :0
+
+Processing Rule : Height Constraint (Min=0mil) (Max=1000mil) (Prefered=500mil) (All)
+Rule Violations :0
+
+Waived Violations Of Rule : Silk To Solder Mask (Clearance=10mil) (IsPad),(All)
+   Waived Violation between Silk To Solder Mask Clearance Constraint: (5.074mil < 10mil) Between Pad Cout-1(2525mil,2395mil) on Top Layer And Track (2527.406mil,2333.276mil)(2559.113mil,2333.276mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [5.074mil]Waived by  at 4/10/2019 5:53:39 PM
+   Waived Violation between Silk To Solder Mask Clearance Constraint: (5.074mil < 10mil) Between Pad Cout-1(2525mil,2395mil) on Top Layer And Track (2527.406mil,2456.724mil)(2559.113mil,2456.724mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [5.074mil]Waived by  at 4/10/2019 5:53:39 PM
+   Waived Violation between Silk To Solder Mask Clearance Constraint: (5.023mil < 10mil) Between Pad Cout-1(2525mil,2395mil) on Top Layer And Track (2559.113mil,2333.276mil)(2559.113mil,2456.724mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [5.023mil]Waived by  at 4/10/2019 5:53:39 PM
+   Waived Violation between Silk To Solder Mask Clearance Constraint: (5.023mil < 10mil) Between Pad Cout-2(2410.827mil,2395mil) on Top Layer And Track (2376.713mil,2333.276mil)(2376.713mil,2456.724mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [5.023mil]Waived by  at 4/10/2019 5:53:39 PM
+   Waived Violation between Silk To Solder Mask Clearance Constraint: (5.074mil < 10mil) Between Pad Cout-2(2410.827mil,2395mil) on Top Layer And Track (2376.713mil,2333.276mil)(2408.421mil,2333.276mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [5.074mil]Waived by  at 4/10/2019 5:53:39 PM
+   Waived Violation between Silk To Solder Mask Clearance Constraint: (5.074mil < 10mil) Between Pad Cout-2(2410.827mil,2395mil) on Top Layer And Track (2376.713mil,2456.724mil)(2408.421mil,2456.724mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [5.074mil]Waived by  at 4/10/2019 5:53:39 PM
+Waived Violations :6
+
+Waived Violations Of Rule : Net Antennae (Tolerance=0mil) (All)
+   Waived Violation between Net Antennae: Via (2681mil,2027mil) from Top Layer to Bottom Layer Waived by  at 4/10/2019 5:55:47 PM
+   Waived Violation between Net Antennae: Via (3468mil,2318mil) from Top Layer to Bottom Layer Waived by  at 4/10/2019 5:55:47 PM
+   Waived Violation between Net Antennae: Via (3473mil,2518mil) from Top Layer to Bottom Layer Waived by  at 4/10/2019 5:55:47 PM
+Waived Violations :3
+
+
+Violations Detected : 0
+Waived Violations : 9
+Time Elapsed        : 00:00:00

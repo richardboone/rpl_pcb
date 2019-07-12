@@ -1,0 +1,22 @@
+Source PCB Design RPL_Power.PcbDoc contains embedded board array. It is recomended to generate individual BOM for each embedded board PCB design.
+
+Output: Gerber Files
+Type  : Gerber
+From  : Variant [[No Variations]] of Project [Free Documents]
+   Generated File[RPL_Power.GTO]
+   Generated File[RPL_Power.GTS]
+   Generated File[RPL_Power.GTL]
+   Generated File[RPL_Power.GBL]
+   Generated File[RPL_Power.GBS]
+   Generated File[RPL_Power.GBO]
+   Generated File[RPL_Power.GM1]
+   Generated File[RPL_Power.GKO]
+   Generated File[RPL_Power.RUL]
+   Generated File[RPL_Power.EXTREP]
+   Generated File[RPL_Power.REP]
+
+
+Files Generated   : 11
+Documents Printed : 0
+
+Finished Output Generation At 7:30:00 PM On 4/10/2019

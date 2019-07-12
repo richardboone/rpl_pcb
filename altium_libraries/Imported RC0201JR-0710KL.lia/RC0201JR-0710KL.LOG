@@ -1,0 +1,29 @@
+PCAD Importer Log
+Project : RC0201JR-0710KL.LibPkg
+
+Section : C:\Users\rboon\Documents\RPL\rpl_pcb\altium_libraries\RC0201JR-0710KL.lia
+    Section : PCB Library - RC0201JR-0710KL.PcbLib
+        Section : Load Messages
+            Warning - 1 : Skipping Token RC0201JR-0710KL On Line 128
+            Warning - 1 : Skipping Token attachedSymbol On Line 180
+        EndSection
+
+        Section : Import Messages
+        EndSection
+    EndSection
+
+    Section : SCH Library - RC0201JR-0710KL.SchLib
+        Section : Parsing Messages
+            Warning - 1 : Skipping Token padStyleDef On Line 9
+            Warning - 1 : Skipping Token padStyleDef On Line 21
+            Warning - 1 : Skipping Token multiLayer On Line 96
+            Warning - 1 : Skipping Token layerContents On Line 100
+            Warning - 1 : Skipping Token layerContents On Line 106
+            Warning - 1 : Skipping Token layerContents On Line 110
+            Warning - 1 : Skipping Token layerContents On Line 118
+        EndSection
+
+        Section : Generating SCH Library - RC0201JR-0710KL.SchLib
+        EndSection
+    EndSection
+EndSection
