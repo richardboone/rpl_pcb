@@ -1,0 +1,18 @@
+[ProjectGroup]
+Version=1.0
+[Project1]
+ProjectPath=..\..\altium_libraries\PCB_Project1.PrjPCB
+[Project2]
+ProjectPath=..\..\altium_libraries\Imported EC2-3NU.lia\EC2-3NU.LibPkg
+[Project3]
+ProjectPath=..\..\altium_libraries\Imported MMBT3904LT1G.lia\MMBT3904LT1G.LibPkg
+[Project4]
+ProjectPath=..\..\altium_libraries\Imported RR0510P-102-D.lia\RR0510P-102-D.LibPkg
+[Project5]
+ProjectPath=..\..\altium_libraries\Imported RC0201JR-0710KL.lia\RC0201JR-0710KL.LibPkg
+[Project6]
+ProjectPath=..\..\altium_libraries\Imported BAT54-7-F.lia\BAT54-7-F.LibPkg
+[Project7]
+ProjectPath=..\..\power board\Power Board\24V\Schematic\2019-02-23_14-12-54\UL_Import.PrjScr
+[Project8]
+ProjectPath=..\..\power board\Power Board\24V\Board\2019-02-23_14-13-01\UL_Import.PrjScr
